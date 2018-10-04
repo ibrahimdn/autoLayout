@@ -1,6 +1,6 @@
 # autoLayout
 SnapKit
-UIView
-UILabel
-UIImageView
-UIButton 
+UIView,
+UILabel,
+UIImageView,
+UIButton
