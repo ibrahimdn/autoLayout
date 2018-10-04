@@ -51,12 +51,12 @@ class ViewController: UIViewController {
         label.numberOfLines = 0
         label.textAlignment = .center
         
-        //"of size" küçük değer olunca label düzgün büyüyüp küçülmüyor.Bundan dolayı 25'den büyük kullanmak gerekiyor.
+        
         label.font = UIFont.systemFont(ofSize: 18.0, weight: .regular)
         label.lineBreakMode = .byTruncatingTail
         
         
-        // label'ın boyutunu ayarlamak için kullanıldı.
+        // label'ın dinamic boyutunu ayarlamak için kullanıldı.
         //"height :" yerine view.frame.size.height'da yazılabilir. Ama ekranda Scroll olma durumunda hata olabilir.
         
         let maxSize = CGSize(width: view.frame.size.width, height: .greatestFiniteMagnitude)
